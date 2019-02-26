@@ -3,9 +3,9 @@ export const setError = error => ({
   error
 });
 
-export const setLoading = bool => ({
+export const setLoading = loading => ({
   type: 'SET_LOADING',
-  bool
+  loading
 });
 
 export const getPresidents = presidents => ({
